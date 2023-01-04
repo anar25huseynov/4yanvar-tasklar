@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#down {
+  margin-top: -45px;
+  margin-left: 265px;
+  font-size: 14px;
+}
+#down:hover {
+  transform: rotate(180deg);
+}
+
+#down1 {
+  margin-top: -478px;
+  margin-left: 252px;
+  font-size: 9px;
+}
+#down1:hover {
+  transform: rotate(180deg);
+}
+
+#location {
+  margin-top: -386px;
+  margin-left: 180px;
+  color: darkcyan;
+}
+
+#left {
+  margin-top: -536px;
+  margin-left: 9px;
+}
+
+#glass {
+  margin-top: 60px;
+  margin-left: 10px;
+  font-size: 13px;
+  color: #907777;
+}
+
+#glass1 {
+  margin-top: -7px;
+  margin-left: -7px;
+  font-size: 16px;
+}
+
+#glass2 {
+  margin-top: -7px;
+  margin-left: -7px;
+  font-size: 16px;
+}
+
+#glass3 {
+  margin-top: -7px;
+  margin-left: -7px;
+  font-size: 16px;
+}
+
+#glass_4 {
+  margin-top: 60px;
+  margin-left: 10px;
+  color: cadetblue;
+}
+
+#glass_1 {
+  margin-top: -5px;
+  margin-left: -6px;
+  font-size: 16px;
+}
+
+#glass_2 {
+  margin-top: -5px;
+  margin-left: -6px;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#glass_3 {
+  margin-top: -5px;
+  margin-left: -6px;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+#down_1 {
+  margin-top: -496px;
+  margin-left: 254px;
+  font-size: 10px;
+}
+#down_1:hover {
+  transform: rotate(180deg);
+}
+
+#location_1 {
+  margin-top: -393px;
+  margin-left: 185px;
+  color: brown;
+}
+
+#left_1 {
+  margin-top: -567px;
+  margin-left: 10px;
+}
+
+#down_2 {
+  margin-top: -50px;
+  margin-left: 265px;
+}
+#down_2:hover {
+  transform: rotate(180deg);
+}
+
+h3 {
+  margin-top: 15px;
+}
+
+p {
+  margin-top: -7px;
+  opacity: 0.7;
+  font-size: 14px;
+}
+
+input {
+  width: 300px;
+  height: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+i {
+  position: absolute;
+  cursor: pointer;
+}
+
+textarea {
+  padding: 15px;
+  width: 300px;
+  cursor: pointer;
+}
+textarea p {
+  margin-top: 4px;
+}
+
+section {
+  width: 800px;
+  padding-left: 20px;
+}
+section .all {
+  display: flex;
+  padding: 20px;
+  position: relative;
+  border: 1px dashed blue;
+}
+section .all--sol {
+  margin-right: 80px;
+}
+section .all--sol__input3 {
+  width: 210px;
+  padding-left: 30px;
+}
+section .all--sol__input3--button {
+  background-color: blue;
+  color: white;
+  width: 90px;
+  height: 25px;
+}
+section .all--sol__input4 {
+  width: 300px;
+  padding-left: 30px;
+}
+section .all--sol__input5 {
+  width: 258px;
+}
+section .all--sol__input5--button {
+  color: white;
+  background-color: blue;
+  width: 42px;
+  height: 25px;
+  padding: 6px;
+}
+section .all--sol__input6 {
+  width: 168px;
+}
+section .all--sol__input6--button--1ci {
+  width: 100px;
+  height: 25px;
+  background-color: #f5f1f1;
+  border: 1px solid;
+  margin-left: -4px;
+}
+section .all--sol__input6--button--2ci {
+  color: white;
+  width: 32px;
+  height: 27px;
+  background-color: blue;
+  padding: 8px;
+  margin-left: -4px;
+  border: 1px solid blue;
+}
+section .all--sol__input7 {
+  width: 170px;
+}
+section .all--sol__input7--button--1ci {
+  width: 100px;
+  height: 25px;
+  margin-left: -5px;
+  border: 1px solid black;
+  background-color: #ffeaea;
+}
+section .all--sol__input7--button--2ci {
+  width: 30px;
+  color: white;
+  height: 27px;
+  background-color: blue;
+  padding: 8px;
+  margin-left: -4px;
+  border: 1px solid blue;
+}
+section .all--sol__input8 {
+  width: 200px;
+}
+section .all--sol__input8--button {
+  width: 100px;
+  height: 25px;
+  background-color: blue;
+  color: white;
+}
+section .all--sag__input1 {
+  height: 30px;
+}
+section .all--sag__input3 {
+  height: 30px;
+  width: 210px;
+  padding-left: 30px;
+}
+section .all--sag__input3--button {
+  background-color: blue;
+  color: white;
+  width: 90px;
+  height: 30px;
+}
+section .all--sag__input4 {
+  height: 30px;
+  width: 300px;
+  padding-left: 30px;
+}
+section .all--sag__input5 {
+  height: 30px;
+  width: 258px;
+}
+section .all--sag__input5--button {
+  color: white;
+  background-color: blue;
+  width: 42px;
+  height: 30px;
+  padding: 8px;
+}
+section .all--sag__input6 {
+  height: 30px;
+  width: 168px;
+}
+section .all--sag__input6--button--1ci {
+  width: 100px;
+  height: 30px;
+  background-color: #f5f1f1;
+  border: 1px solid;
+  margin-left: -4px;
+  font-size: 16px;
+}
+section .all--sag__input6--button--2ci {
+  color: white;
+  width: 32px;
+  height: 30px;
+  background-color: blue;
+  padding: 8px;
+  margin-left: -2px;
+  border: 1px solid #61619e;
+}
+section .all--sag__input7 {
+  height: 30px;
+  width: 170px;
+}
+section .all--sag__input7--button--1ci {
+  width: 100px;
+  height: 30px;
+  margin-left: -5px;
+  border: 1px solid black;
+  background-color: #ffeaea;
+  font-size: 16px;
+}
+section .all--sag__input7--button--2ci {
+  width: 30px;
+  color: white;
+  height: 30px;
+  background-color: blue;
+  padding: 8px;
+  margin-left: -4px;
+  border: 1px solid #61619e;
+}
+section .all--sag__input8 {
+  height: 30px;
+  width: 200px;
+}
+section .all--sag__input8--button {
+  width: 100px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+}/*# sourceMappingURL=form-group.css.map */

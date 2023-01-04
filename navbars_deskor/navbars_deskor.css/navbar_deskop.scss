@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+li{
+    margin-left: 15px;
+}
+.all {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 50px;
+  &__sol {
+    margin-right: 40px;
+    margin-top: 12px;
+  }
+  &__orta {
+    margin-right: 60px;
+    input {
+      width: 200px;
+      height: 40px;
+    }
+    &--1 {
+      margin-left: -5px;
+      width: 90px;
+      text-align: start;
+      height: 40px;
+    }
+    &--2{
+        margin-left: -5px;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    color: white;
+    }
+  }
+}
+ul {
+  display: flex;
+  margin-top: 12px;
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  border: dashed;
+  border-color: #0000ff;
+  padding: 15px;
+  width: 1000px;
+}
+section .all {
+  background-color: rgb(232, 204, 204);
+  display: flex;
+  width: 97%;
+  padding: 10px;
+}
+section .all--sol {
+  width: 50%;
+  margin-right: 50px;
+  position: relative;
+}
+section .all--sol i {
+  position: absolute;
+}
+section .all--sol input {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+section .all--sol textarea {
+  width: 400px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 15px;
+  cursor: pointer;
+}
+section .all--sol #down {
+  margin-left: -60px;
+  margin-top: 22px;
+  font-size: 18px;
+}
+section .all--sol #down:hover {
+  transform: rotate(180deg);
+}
+section .all--sol #glass {
+  margin-top: 25px;
+  margin-left: -390px;
+  font-size: 18px;
+}
+section .all--sol #left {
+  margin-top: 25px;
+  margin-left: -390px;
+}
+section .all--sol input[type=search] {
+  padding-left: 50px;
+}
+section .all--sol input[type="Choose File"] {
+  padding-left: 50px;
+}
+section .all--sag {
+  box-sizing: border-box;
+  position: relative;
+}
+section .all--sag input {
+  width: 400px;
+  height: 75px;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+}
+section .all--sag i {
+  position: absolute;
+}
+section .all--sag textarea {
+  width: 400px;
+  height: 100px;
+  margin-left: 10px;
+  margin-top: 25px;
+  padding: 15px;
+  cursor: pointer;
+}
+section .all--sag input[type=search] {
+  padding-left: 50px;
+  width: 420px;
+}
+section .all--sag input[type="Choose File"] {
+  padding-left: 50px;
+  width: 367px;
+}
+section .all--sag input[type=email] {
+  padding-left: 15px;
+}
+section .all--sag input[type=select] {
+  padding-left: 15px;
+}
+section .all--sag #down {
+  margin-left: -45px;
+  margin-top: 40px;
+  font-size: 19px;
+}
+section .all--sag #down:hover {
+  transform: rotate(180deg);
+}
+section .all--sag #glass {
+  margin-top: 41px;
+  margin-left: -407px;
+  font-size: 18px;
+  color: green;
+}
+section .all--sag #left {
+  margin-top: 42px;
+  margin-left: -407px;
+  font-size: 19px;
+}/*# sourceMappingURL=form-control.css.map */

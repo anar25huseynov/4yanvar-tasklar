@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+}
+
+li {
+  margin-left: 15px;
+}
+
+.all {
+  display: flex;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+.all__sol {
+  margin-right: 40px;
+  margin-top: 12px;
+}
+.all__orta {
+  margin-right: 60px;
+}
+.all__orta input {
+  width: 200px;
+  height: 40px;
+}
+.all__orta--1 {
+  margin-left: -5px;
+  width: 90px;
+  text-align: start;
+  height: 40px;
+}
+.all__orta--2 {
+  margin-left: -5px;
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  color: white;
+}
+
+ul {
+  display: flex;
+  margin-top: 12px;
+}/*# sourceMappingURL=navbar_deskop.css.map */

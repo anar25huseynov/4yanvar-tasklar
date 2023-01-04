@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+}
+
+.all__section1 {
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.all__section1--button {
+  border-radius: 5px;
+  position: absolute;
+  font-size: 16px;
+  margin-left: 528px;
+  background-color: blue;
+  color: white;
+  width: 100px;
+  height: 30px;
+  opacity: 0.6;
+  padding: 0;
+}
+.all__section1--h3 {
+  margin-top: 30px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.all__section1--p {
+  margin-top: 5px;
+  border-bottom: 2px dashed blue;
+}
+
+.all2__section2 {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  margin-top: 115px;
+}
+.all2__section2--button {
+  border-radius: 5px;
+  position: absolute;
+  font-size: 16px;
+  margin-left: 528px;
+  background-color: rgb(186, 186, 199);
+  color: rgb(0, 0, 0);
+  width: 100px;
+  height: 30px;
+  opacity: 0.6;
+  padding: 0;
+}
+.all2__section2--h3 {
+  margin-top: 30px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.all2__section2--p {
+  margin-top: 5px;
+  border-bottom: 2px dashed blue;
+}
+
+.all3__section3 {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  margin-top: 120px;
+}
+.all3__section3--button {
+  border-radius: 5px;
+  position: absolute;
+  font-size: 16px;
+  margin-left: 528px;
+  background-color: rgb(227, 227, 231);
+  color: rgb(10, 10, 10);
+  width: 100px;
+  height: 30px;
+  opacity: 0.6;
+  padding: 0;
+}
+.all3__section3--h3 {
+  margin-top: 50px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+.all3__section3--p {
+  margin-top: 5px;
+  border-bottom: 2px dashed blue;
+}/*# sourceMappingURL=widget item3.css.map */

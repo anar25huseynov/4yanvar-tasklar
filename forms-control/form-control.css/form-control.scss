@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+section{
+    border: dashed;
+    border-color: #0000ff;
+    padding: 15px;
+    width: 1000px;
+    .all {
+        background-color: rgb(232, 204, 204);
+        display: flex;
+        width: 97%;
+        padding: 10px;
+        
+        &--sol {
+          width: 50%;
+          margin-right: 50px;
+          position: relative;
+          
+          i {
+            position: absolute;
+          }
+          input {
+            width: 400px;
+            height: 50px;
+            outline: none;
+            margin: 10px;
+            box-sizing: border-box;
+            cursor: pointer;
+          }
+          textarea {
+            width: 400px;
+            height: 100px;
+            margin-left: 10px;
+            margin-top: 15px;
+            font-size: 16px;
+            letter-spacing: 2px;
+            padding: 15px;
+            cursor: pointer;
+          }
+          #down {
+            margin-left: -60px;
+            margin-top: 22px;
+            font-size: 18px;
+            
+            &:hover{
+                transform: rotate(180deg);
+            }
+          }
+          
+          #glass {
+            margin-top: 25px;
+            margin-left: -390px;
+            font-size: 18px;
+          }
+          #left {
+            margin-top: 25px;
+            margin-left: -390px;
+          }
+          input[type="search"] {
+            padding-left: 50px;
+          }
+          input[type="Choose File"] {
+            padding-left: 50px;
+          }
+        }
+        &--sag {
+          box-sizing: border-box;
+          position: relative;
+          input {
+            width: 400px;
+            height: 75px;
+            margin: 10px;
+            outline: none;
+            cursor: pointer;
+          }
+          i {
+            position: absolute;
+          }
+          textarea {
+            width: 400px;
+            height: 100px;
+            margin-left: 10px;
+            margin-top: 25px;
+            padding: 15px;
+            cursor: pointer;
+          }
+          input[type="search"] {
+            padding-left: 50px;
+            width: 420px;
+          }
+          input[type="Choose File"] {
+            padding-left: 50px;
+            width: 367px;
+          }
+          input[type="email"] {
+            padding-left: 15px;
+          }
+          input[type="select"] {
+            padding-left: 15px;
+          }
+          #down {
+            margin-left: -45px;
+            margin-top: 40px;
+            font-size: 19px;
+            &:hover{
+                transform: rotate(180deg);
+            }
+          }
+          #glass {
+            margin-top: 41px;
+            margin-left: -407px;
+            font-size: 18px;
+            color: green;
+          }
+          #left {
+            margin-top: 42px;
+            margin-left: -407px;
+            font-size: 19px;
+          }
+        }
+      }
+}
+
